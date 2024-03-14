@@ -1,14 +1,97 @@
+/* Tout ça concerne juste l'en-tête*/
+
 .en_tete {
     margin: auto;
     text-align: justify;
     text-align: center;
 }
 
+
+
 .sous_entete p {
     display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.citizenship p {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 8px;
 }
 
 #nom_et_Fonction {
     font-size: xx-large;
+    margin-bottom: 0;
 }
 
+.citizenship {
+    margin-top: 0;
+}
+
+#key_skills {
+    display: inline;
+}
+
+
+/* Tout ça concerne Key Experience */
+
+
+
+/* Général styling */
+
+
+.section_title {
+    border-bottom: 2px solid black;
+    /* C'est un peu long, trouver comment réduire la border */
+    font-size: larger;
+}
+
+.experience_name p {
+    display: inline-block;
+}
+
+.job_title {
+    font-size: x-large;
+}
+
+.company_name {
+    color: gray;
+}
+
+.activity_period {
+    font-style: italic;
+}
+
+.quick_description {
+    font-style: oblique;
+}
+
+.bullet_point {
+    list-style-type: circle;
+}
+
+.unordered_list {
+    list-style-type: circle;
+}
+
+
+
+/* table specification */
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    text-align: left;
+
+}
+
+
+li {
+    font-weight: 100;
+}
