@@ -1,0 +1,14 @@
+.en_tete {
+    margin: auto;
+    text-align: justify;
+    text-align: center;
+}
+
+.sous_entete p {
+    display: inline-block;
+}
+
+#nom_et_Fonction {
+    font-size: xx-large;
+}
+
