@@ -1,13 +1,16 @@
-/* Tout ça concerne juste l'en-tête*/
-
+/* Ci-dessous, ça concerne juste l'en-tête*/
 .en_tete {
     margin: auto;
     text-align: justify;
     text-align: center;
-    
 }
 
-
+#nom_et_Fonction {
+    font-size: xxx-large;
+    margin-bottom: 0;
+    margin-top: 0px;
+    color: #1F497D;
+}
 
 .sous_entete p {
     display: inline-block;
@@ -22,37 +25,50 @@
     margin-left: 8px;
 }
 
-#nom_et_Fonction {
-    font-size: xx-large;
-    margin-bottom: 0;
-    color: #1F497D;
-}
-
 .citizenship {
     margin-top: 0;
 }
+
+/* Ci-dessous, ça concerne juste les Key Skills */
 
 #key_skills {
     display: inline;
 }
 
+/* Ci-dessous, ça concerne juste les Hobbies */
 
-/* Tout ça concerne Key Experience */
+.hobby p {
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hobby {
+    margin-top: 15px;
+}
 
 
 
 /* Général styling */
 
-
 .section_title {
-    border-bottom: 2px solid #1F497D;
+    border-bottom: 2px solid #00205F;
     /* C'est un peu long, trouver comment réduire la border */
-    font-size: larger;
-    color: #1F497D;
+    font-size: xx-large;
+    color: #00205F;
+    margin-bottom: 0px;
 }
 
 .experience_name p {
     display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+.special_mention {
+    color: #17365D;
+    font-size: larger;
 }
 
 .job_title {
@@ -60,16 +76,36 @@
 }
 
 .company_name {
-    color: gray;
+    color: #1F497D;
+    font-size: x-large;
 }
 
 .activity_period {
-    font-style: italic;
+    font-style: normal;
+    margin-top: 3px;
+    margin-bottom: 0px;
 }
 
 .quick_description {
-    font-style: oblique;
+    font-style: normal;
+    margin-top: 13px;
+    line-height: 1.5em;
 }
+
+.quick_description2 {
+    font-style: normal;
+    margin-top: 0px;
+    line-height: 1em;
+}
+
+.skill {
+    color: #17365D;
+    font-size: large;
+    margin-bottom: 2px;
+}
+
+
+/* Ci-dessous, ça concerne juste les listes <li> */
 
 .bullet_point {
     list-style-type: none;
@@ -81,21 +117,20 @@
     color: #BC014F;
     content: "⚬";
     margin-right: 10px;
-    
+}
+
+.bullet_point li {
+    margin-bottom: 8px;
+    margin-top: 0px;
 }
 
 
-
-
-
-
-
-/* table specification */
+/* Ci-dessous, table specification */
 
 table {
     width: 100%;
     margin-bottom: 20px;
-    
+    margin-top: 10px;
 }
 
 th,
@@ -106,13 +141,19 @@ td {
     margin-top: -30;
 }
 
-td {
-    
-}
+td {}
 
 
 li {
     font-weight: 100;
+}
+
+.education_table {
+    line-height: 1.5em;
+}
+
+.certif_table {
+    padding-left: 33px;
 }
 
 /*
