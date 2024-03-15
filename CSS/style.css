@@ -4,6 +4,7 @@
     margin: auto;
     text-align: justify;
     text-align: center;
+    
 }
 
 
@@ -24,6 +25,7 @@
 #nom_et_Fonction {
     font-size: xx-large;
     margin-bottom: 0;
+    color: #1F497D;
 }
 
 .citizenship {
@@ -43,9 +45,10 @@
 
 
 .section_title {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #1F497D;
     /* C'est un peu long, trouver comment réduire la border */
     font-size: larger;
+    color: #1F497D;
 }
 
 .experience_name p {
@@ -69,12 +72,21 @@
 }
 
 .bullet_point {
-    list-style-type: circle;
+    list-style-type: none;
+    margin-left: -22px;
+    text-indent: -18px;
 }
 
-.unordered_list {
-    list-style-type: circle;
+.bullet_point li::before {
+    color: #BC014F;
+    content: "⚬";
+    margin-right: 10px;
+    
 }
+
+
+
+
 
 
 
@@ -83,15 +95,29 @@
 table {
     width: 100%;
     margin-bottom: 20px;
+    
 }
 
 th,
 td {
     text-align: left;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: -30;
+}
 
+td {
+    
 }
 
 
 li {
     font-weight: 100;
 }
+
+/*
+General rules
+20px entre chaque section du CV
+
+
+*/
