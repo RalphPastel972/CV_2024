@@ -10,6 +10,8 @@
     margin-bottom: 0;
     margin-top: 0px;
     color: #1F497D;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 .sous_entete p {
@@ -37,14 +39,25 @@
 
 /* Ci-dessous, ça concerne juste les Hobbies */
 
-.hobby p {
+.hobby .hobby_description {
     line-height: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
 }
 
 .hobby {
     margin-top: 15px;
+}
+
+.hobby p {
+    display: inline;
+}
+
+.hobby_name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 
@@ -54,15 +67,20 @@
 .section_title {
     border-bottom: 2px solid #00205F;
     /* C'est un peu long, trouver comment réduire la border */
-    font-size: xx-large;
+    font-size: x-large;
     color: #00205F;
     margin-bottom: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .experience_name p {
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-style: italic;
 }
 
@@ -72,36 +90,41 @@
 }
 
 .job_title {
-    font-size: x-large;
+    font-size: large;
 }
 
 .company_name {
     color: #1F497D;
-    font-size: x-large;
+    font-size: large;
 }
 
 .activity_period {
-    font-style: normal;
     margin-top: 3px;
     margin-bottom: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 .quick_description {
-    font-style: normal;
     margin-top: 13px;
     line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 .quick_description2 {
-    font-style: normal;
     margin-top: 0px;
     line-height: 1em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 .skill {
     color: #17365D;
     font-size: large;
     margin-bottom: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 
@@ -122,6 +145,8 @@
 .bullet_point li {
     margin-bottom: 8px;
     margin-top: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
 }
 
 
@@ -141,24 +166,23 @@ td {
     margin-top: -30;
 }
 
-td {}
-
-
-li {
-    font-weight: 100;
-}
-
 .education_table {
     line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
 }
 
 .certif_table {
     padding-left: 33px;
 }
 
-/*
-General rules
-20px entre chaque section du CV
+/* Ci-dessous, les liens et urls */
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-*/
+a:hover {
+    text-decoration: underline;
+}
